@@ -1,0 +1,26 @@
+menu = {
+    "Nasi Goreng"   :18000,
+    "Mie Goreng"    :18000,
+    "Ayam Goreng"   :10000,
+    "Soto Ayam"     :10000,
+    "Gado-gado"     :12000,
+    "Pecel Lele"    :25000,
+}
+print("==================== Daftar Menu ====================")
+for x in menu:
+    print("Daftar Menu : ", x,"\t Harga: ",menu[x] )
+print("Pembelian di atas Rp100.000,- mendapatkan diskon 10%")
+print("=====================================================")
+beli = input("Pilih Menu : ")
+jumlah = int(input("Jumlah Pesanan : "))
+bayar = jumlah * menu[beli]
+if bayar > 100_000:
+    diskon = bayar*10/100
+    total = bayar - diskon
+else:
+    total = bayar 
+print("================= Detail Pembayaran =================")
+print("Menu yang dipesan        :", beli)
+print("Jumlah yang dipesan      :", jumlah)
+print("Total Biaya              :", bayar)
+print("Total yang harus dibayar :", total)
