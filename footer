@@ -1,0 +1,17 @@
+  <!-- Footer -->
+    <footer>
+      <footer class="footer">
+        <div class="navbar">
+          <!-- Logo -->
+          <div class="navbar-logo">
+            <a href="#"
+              ><img
+                src="img/grmr.png"
+                alt="Gramedia Logo"
+                width="150"
+                height="140"
+                
+            /></a>
+          </div>
+          <h4 class="is-size-7 has-text-left">Toko buku online terbesar, terlengkap dan terpercaya di Indonesia</h4>
+        </div>
